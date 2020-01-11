@@ -1,0 +1,52 @@
+/*
+#main_nav { position:absolute; right:30px; top:40px;}
+  				 #main_nav li { float:left; margin-left:2px; }
+  				 #main_nav li a{ font-size:16px; color:#fff; text-decoration:none; padding:8px 15px; -moz-border-radius:7px; -webkit-border-radius:7px; border-radius:7px;} 
+  				 #main_nav li a.active,
+              #main_nav li a:hover{  background-color:#0b86cb;  }
+*/
+@charset "UTF-8";
+@import "common.css";
+
+:root {
+    --placeholder: #FFFFFF;
+}
+
+header {
+    background-color: var(--main-bg-color);
+}
+
+body {
+    background-color: var(--main-bg-color);
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Khula:800&display=swap');
+body {
+  background: #111;
+}
+.hidden {
+  opacity:0;
+}
+.text-container {
+ 
+  font-family: 'Khula', sans-serif;
+  font-size:4em;
+  text-align:center;
+  height:200px;
+  width:600px;
+  display:block;
+  position:absolute;
+  color:white;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+}
+.text-underscore {
+  display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+}
