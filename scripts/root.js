@@ -32,6 +32,8 @@ function write_next(target, text) {
 
         // Turn off underscore
         visible = true;
+        // var underscore = document.getElementById("underscore")    Destroy underscore rather than changing opacity to 0.
+        // underscore.parentNode.removeChild(underscore);
         switch_underscore();
     }
 }
@@ -52,6 +54,13 @@ function typewrite(tag){
 }
 
 typewrite("text");
+//typewrite("text_two"); modify typewrite function to take parameters text_tag and underscore_tag so we can typewrite these sequentially.
+
+
+function move_to_loc(tag) {
+    var target = document.getElementById(tag);
+
+}
 
 
 
