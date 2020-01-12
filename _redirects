@@ -1,2 +1,5 @@
 # Redirect with a 404
-# /*         /pages/404.html              404
+/index.html     /pages/index.html           200
+/index          /pages/index.html           200
+/               /pages/index.html           200
+/*              /pages/404.html             404
