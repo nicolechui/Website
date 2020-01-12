@@ -50,3 +50,9 @@ body {
   top:-0.14em;
   left:10px;
 }
+#text {
+  opacity: 0;
+}
+#text_two {
+  opacity: 0;
+}
