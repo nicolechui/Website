@@ -45,7 +45,7 @@ function typewrite(text_tag, underscore_tag, color){
   var underscore_target = document.getElementById(underscore_tag);
   var text = text_target.innerHTML;
 
-  text_target.setAttribute("style", "color:" + color);
+  text_target.setAttribute("style", "opacity: 1; color:" + color);
   underscore_target.setAttribute("style", "color:" + color);
   underscore_func = window.setInterval(switch_underscore, 300, underscore_target);
   text_func = window.setInterval(write_next, 120, text_target, text, underscore_target);
