@@ -4,7 +4,7 @@ var underscore_func;
 var text_func;
 var next_sequence_flag = true;
 
-var colors = ["purple", "red"];
+var colors = ["green", "red"];
 
 function switch_underscore(target) {
   if (visible === true) {
@@ -39,16 +39,20 @@ function next_sequence(underscore_target) {
 function typewrite(text_tag, underscore_tag, color){
   currLetter = 1;
   colorIndex = 0;
-  visible = true;
+  visible = false;
 
   var text_target = document.getElementById(text_tag);
   var underscore_target = document.getElementById(underscore_tag);
   var text = text_target.innerHTML;
 
-  text_target.setAttribute("style", "opacity: 1; color:" + color);
   underscore_target.setAttribute("style", "color:" + color);
-  underscore_func = window.setInterval(switch_underscore, 300, underscore_target);
-  text_func = window.setInterval(write_next, 120, text_target, text, underscore_target);
+  underscore_func = window.setInterval(switch_underscore, 250, underscore_target);
+  window.setTimeout(function() {
+    text_func = window.setInterval(write_next, 120, text_target, text, underscore_target);
+    window.setTimeout(function() {
+      text_target.setAttribute("style", "opacity: 1; color:" + color);
+    }, 150)
+  }, 1000);
 }
 
 typewrite("text", "underscore", colors[0]);
