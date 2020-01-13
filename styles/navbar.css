@@ -1,17 +1,41 @@
+:root {
+  --vertical-padding: 20px;
+  --horizontal-padding: 15px;
+}
+
 .navbar {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .navbar a {
-    float: left;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    text-decoration: none;
-  }
-  
-  .navbar a:hover {
-    background-color: #ddd;
-    color: black;
-  }
+  padding-top: var(--horizontal-padding);
+  padding-bottom: var(--vertical-padding);
+  display: table;
+  width: 100%;
+}
+
+.row {
+  display: table-row;
+}
+
+.navbar-left {
+  display: table-cell;
+  width: 25%;
+}
+.navbar-center {
+  display: table-cell;
+  width: 50%;
+  text-align: center;
+}
+.navbar-right {
+  display: table-cell;
+  width: 25%;
+  text-align: right;
+}
+
+.navbar a {
+  color: white;
+  padding: var(--vertical-padding) var(--horizontal-padding);
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
