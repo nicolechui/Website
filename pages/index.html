@@ -1,15 +1,78 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Matthew Braun is a Software Engineer based in Anaheim, CA. 
-                He has two Bachelor's Degrees - One in Computer Science and another in Mathematics.">
-    <meta name="keywords" content="software engineer, computer science, mathematics, software developer,
-                programmer, personal website, web design">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matthew Braun | Software Engineer</title>
-    <link href="../styles/main.css" rel="stylesheet" type="text/css">
-</head>
+    <head id="head">
+        <meta charset="UTF-8">
+        <meta name="description" content="Matthew Braun is a Software Engineer based in Anaheim, CA. 
+                    He has two Bachelor's Degrees - One in Computer Science and another in Mathematics.">
+        <meta name="keywords" content="software engineer, computer science, mathematics, software developer,
+                    programmer, personal website, web design">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Matthew Braun | Software Engineer</title>
+        <link href="../styles/main.css" rel="stylesheet" type="text/css" id="theme">
+    </head>
+
+    <!-------------------------------------------------------------   
+            Header Section    
+    -------------------------------------------------------------->
+    <header>
+        <div class="navbar">
+            <div class="row">
+                <div class="navbar-left" id="navbar-test">
+                    <a id="test">Test</a>
+                </div>
+                <div class="navbar-center">
+                    <a>Matthew Braun | Software Engineer</a>
+                </div>
+                <div class="navbar-right">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#resume">Resume</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-------------------------------------------------------------   
+            Body Section    
+    -------------------------------------------------------------->
+    <body>
+        <section id="intro">
+            <h3 class="line one">Hello! My name is</h3>
+            <h2 class="line two">Matthew Braun.</h2>
+            <h2 class="line three">I am a Software Engineer.</h2>
+            <h2 class="line four">I have a B.A. in Computer Science and a B.S. in Mathematics.
+                                I love <span class="line three">solving problems.</span>
+            </h2>
+        </section>
+    </body>
+
+    <!-------------------------------------------------------------   
+            Footer Section    
+    -------------------------------------------------------------->
+    <footer>
+    </footer>
+</html>
+
+<script>
+   if (window.location.href.includes("/pages/index")) window.location.replace("/");
+</script>
+
+
+<!--Functionality to change theme <script>
+var theme = document.getElementById("theme");
+var head = document.getElementById("head");
+head.removeChild(theme);
+
+var styleSheet = document.createElement('link');
+styleSheet.rel = 'stylesheet';
+styleSheet.type = 'text/css';
+styleSheet.href = '../styles/light-theme.css'; // name of your css file
+styleSheet.id = "theme"
+head.appendChild(styleSheet);
+-->
+
 <!-- Initial Animation -->
 <!--
 <div class="text-container">
@@ -23,45 +86,4 @@
     </div>
 </div>
 <script src="../scripts/animation.js"></script>
--->
-
-<header>
-    <div class="navbar">
-        <div class="row">
-            <div class="navbar-left">
-                <a>Test</a>
-            </div>
-            <div class="navbar-center">
-                <a>Matthew Braun | Software Engineer</a>
-            </div>
-            <div class="navbar-right">
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#experience">Experience</a>
-                <a href="#contact">Contact</a>
-                <a href="#resume">Resume</a>
-            </div>
-        </div>
-    </div>
-</header>
-
-<body>
-</body>
-
-<footer>
-</footer>
-
-<script>
-    if (window.location.href.includes("/pages/index")) window.location.replace("/");
-</script>
-
-<!--
-<ul id="main_nav"> 
-    <li><a href="#" class="active">Home</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Portfolio</a></li>
-    <li><a href="#">Services</a></li>
-    <li><a href="#">Blog</a></li>
-    <li><a href="#">Contact Us</a></li>
-    </ul>
 -->
