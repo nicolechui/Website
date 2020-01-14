@@ -1,3 +1,18 @@
+:root {
+    --main-bg-color: #01161f;
+    --overtone-bg-color: #000e13;
+
+    /* --main-bg-color: #00010a; */
+}
+
+/************************************************************************************
+        Header Section
+************************************************************************************/
+header {
+    background-color: var(--overtone-bg-color);
+    border-color: black;
+}
+
 body {
-    background-color: blue;
+    background-color: var(--main-bg-color);
 }

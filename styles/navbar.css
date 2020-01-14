@@ -12,6 +12,8 @@
 
 .row {
   display: table-row;
+  border: 5px;
+  border-color: purple;
 }
 
 .navbar-left {
