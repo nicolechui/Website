@@ -21,7 +21,7 @@ body {
 }
 
 .one {
-    color: #34D1BF;
+    color: rgb(44, 224, 203);
   }
   
   .two {
@@ -29,9 +29,9 @@ body {
   }
   
   .three {
-    color: #c06bdd;
+    color: #c152e6;
   }
   
   .four {
-    color: rgb(119, 171, 214);
+    color: rgb(83, 148, 200);
   }
