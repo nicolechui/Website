@@ -41,6 +41,7 @@ body {
 
 
 @import url('https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
 
 #img {
   padding-left: 0px;
@@ -60,7 +61,8 @@ body {
 
 .line {
   margin: 0px;
-  font-family: 'Baloo Bhai', cursive;
+  // font-family: 'Baloo Bhai', cursive;
+  font-family: 'PT Sans', sans-serif;
 }
 
 .one {
