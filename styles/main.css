@@ -25,7 +25,7 @@ html {
 ************************************************************************************/
 header {
   border-width: 0px 0px 2px 0px;
-  border-style: solid;
+  border-style: groove;
 
   position: fixed;
   left:0;
@@ -67,22 +67,18 @@ body {
 }
 
 .one {
-  color: green;
   font-size: 5rem;
 }
 
 .two {
-  color: #FFFFFF;
   font-size: 8rem;
 }
 
 .three {
-  color: indianred;
   font-size: 8rem;
 }
 
 .four {
-  color: rebeccapurple;
   font-size: 5rem;
 }
 
