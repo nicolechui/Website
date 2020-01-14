@@ -4,7 +4,7 @@
 }
 
 .navbar {
-  padding-top: var(--horizontal-padding);
+  padding-top: var(--vertical-padding);
   padding-bottom: var(--vertical-padding);
   display: table;
   width: 100%;
@@ -17,6 +17,7 @@
 .navbar-left {
   display: table-cell;
   width: 25%;
+  // padding-left: 0.5%;
 }
 .navbar-center {
   display: table-cell;
@@ -27,6 +28,8 @@
   display: table-cell;
   width: 25%;
   text-align: right;
+  // padding-right: 1.5%;
+  padding-right: 45px;
 }
 
 .navbar a {

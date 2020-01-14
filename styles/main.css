@@ -14,6 +14,13 @@
 }
 
 /************************************************************************************
+        HTML Section
+************************************************************************************/
+html {
+  scroll-behavior: smooth;
+}
+
+/************************************************************************************
         Header Section
 ************************************************************************************/
 header {
@@ -33,6 +40,60 @@ body {
 }
 
 
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap');
+
+#img {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
+  margin-top: 25px;
+}
+
+#intro {
+  margin-top: 15%;
+  margin-left: 30%;
+  padding-bottom: 0px;
+  text-align: left;
+}
+
+.line {
+  margin: 0px;
+  font-family: 'Baloo Bhai', cursive;
+}
+
+.one {
+  color: green;
+  font-size: 4rem;
+}
+
+.two {
+  color: #FFFFFF;
+  font-size: 6rem;
+}
+
+.three {
+  color: indianred;
+  font-size: 6rem;
+}
+
+.four {
+  color: rebeccapurple;
+  font-size: 4rem;
+}
+
+
+
+/*
+@media screen and (max-width: 2000px){
+  body {
+    background-color: #FFFFFF
+  }
+}
+*/
+
+/*
 @import url('https://fonts.googleapis.com/css?family=Khula:800&display=swap');
 body {
   background: #111;
@@ -67,3 +128,4 @@ body {
 #text_two {
   opacity: 0;
 }
+*/
