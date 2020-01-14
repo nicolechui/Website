@@ -1,6 +1,7 @@
 :root {
     --main-bg-color: #081623;
     --overtone-bg-color: #020308;
+    --overtone-border-color: #000011;
 
     /* --main-bg-color: #00010a; */
 }
@@ -10,7 +11,7 @@
 ************************************************************************************/
 header {
     background-color: var(--overtone-bg-color);
-    border-color: #000011;
+    border-color: var(--overtone-border-color);
 }
 
 /************************************************************************************
@@ -25,13 +26,13 @@ body {
   }
   
   .two {
-    color: #cdebf9;
+    color: #b5d6e7;
   }
   
   .three {
-    color: #c152e6;
+    color: #6e2697;
   }
   
   .four {
-    color: rgb(83, 148, 200);
+    color: rgb(173, 211, 137);
   }
