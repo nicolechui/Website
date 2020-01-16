@@ -1,0 +1,39 @@
+:root {
+    --main-bg-color: #081623;
+    --overtone-bg-color: #020308;
+    --overtone-border-color: #000011;
+
+    /* --main-bg-color: #00010a; */
+}
+
+/************************************************************************************
+        Header Section
+************************************************************************************/
+header {
+    background-color: var(--overtone-bg-color);
+    border-color: var(--overtone-border-color);
+}
+
+/************************************************************************************
+        Body Section
+************************************************************************************/
+body {
+    background-color: var(--main-bg-color);
+}
+
+.one {
+    color: rgb(44, 224, 203);
+  }
+  
+  .two {
+    color: #cbe6f3;
+  }
+  
+  .three {
+    color: #7b1bb3;
+  }
+  
+  .four {
+      color: rgb(44, 224, 203);
+    // color: rgb(173, 211, 137);
+  }
