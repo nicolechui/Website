@@ -1,13 +1,7 @@
-/*
-#main_nav { position:absolute; right:30px; top:40px;}
-  				 #main_nav li { float:left; margin-left:2px; }
-  				 #main_nav li a{ font-size:16px; color:#fff; text-decoration:none; padding:8px 15px; -moz-border-radius:7px; -webkit-border-radius:7px; border-radius:7px;} 
-  				 #main_nav li a.active,
-              #main_nav li a:hover{  background-color:#0b86cb;  }
-*/
 @charset "UTF-8";
 @import "common.css";
 @import "navbar.css";
+@import "body.css";
 
 @import url('https://fonts.googleapis.com/css?family=PT+Sans:700&display=swap');
 
@@ -26,9 +20,9 @@ html {
         Header Section
 ************************************************************************************/
 header {
+  font-family: 'PT Sans', sans-serif;
   border-width: 0px 0px 2px 0px;
   border-style: groove;
-
   position: fixed;
   left:0;
   top: 0;
@@ -36,49 +30,44 @@ header {
   transition: top 0.3s;
 }
 
+.navbar {
+  display: table;
+  width: 100%;
+}
+
+.row {
+  display: table-row;
+}
+
+.navbar-left {
+  display: table-cell;
+}
+
+.navbar-center {
+  display: table-cell;
+  text-align: center;
+}
+
+.navbar-right {
+  display: table-cell;
+  text-align: right;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
 /************************************************************************************
         Body Section
 ************************************************************************************/
 body {
-}
-
-#img {
-  padding-left: 0px;
-  padding-right: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-  width: 100%;
-  margin-top: 25px;
-}
-
-#intro {
-  margin-top: 15%;
-  margin-left: 16%;
-  padding-bottom: 0px;
-  text-align: left;
-}
-
-.line {
-  margin: 0px;
   font-family: 'PT Sans', sans-serif;
 }
 
-.one {
-  font-size: 40px;
+#intro {
+  text-align: left;
 }
 
-.two {
-  font-size: 100px;
-}
-
-.three {
-  font-size: 100px;
-}
-
-.four {
-  font-size: 40px;
-  margin-top: -30px;
-}
 
 
 /*
