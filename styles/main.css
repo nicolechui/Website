@@ -9,6 +9,8 @@
 @import "common.css";
 @import "navbar.css";
 
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:700&display=swap');
+
 :root {
     --placeholder: #FFFFFF;
 }
@@ -40,9 +42,6 @@ header {
 body {
 }
 
-@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap');
-@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
-
 #img {
   padding-left: 0px;
   padding-right: 0px;
@@ -54,17 +53,15 @@ body {
 
 #intro {
   margin-top: 15%;
-  margin-left: 21%;
+  margin-left: 16%;
   padding-bottom: 0px;
   text-align: left;
 }
 
 .line {
   margin: 0px;
-  // font-family: 'Baloo Bhai', cursive;
   font-family: 'PT Sans', sans-serif;
 }
-
 
 .one {
   font-size: 40px;
@@ -80,6 +77,7 @@ body {
 
 .four {
   font-size: 40px;
+  margin-top: -30px;
 }
 
 
