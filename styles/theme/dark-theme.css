@@ -62,4 +62,10 @@ body {
     background-color: green;
   }
 }
+
+@media only screen and (max-width: 1707px) {
+  body {
+    background-color: black;
+  }
+}
 */
