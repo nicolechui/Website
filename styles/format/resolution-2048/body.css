@@ -1,0 +1,26 @@
+/* 
+    Formatting rules for when the width is 2048 pixels or above
+*/
+
+@media only screen and (max-width: 2048px) {
+    #intro {
+        margin-top: 300px;
+        margin-left: 250px;
+    }
+    
+    .one {
+        font-size: 35px;
+    }
+    
+    .two {
+        font-size: 90px;
+    }
+
+    .three {
+        font-size: 90px;
+    }
+
+    .four {
+        font-size: 35px;
+    }
+}

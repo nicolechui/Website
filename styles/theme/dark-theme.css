@@ -49,10 +49,17 @@ body {
   color: #72a8ca;
 }
 
+
 /*
 @media only screen and (max-width: 2327px) {
   body {
-    background-color: white;
+    background-color: black;
+  }
+}
+
+@media only screen and (max-width: 2048px) {
+  body {
+    background-color: green;
   }
 }
 */
