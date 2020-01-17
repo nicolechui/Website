@@ -1,0 +1,54 @@
+:root {
+    --main-bg-color: #161617;
+    --overtone-bg-color: #0c0c0e;
+    --overtone-border-color: #060606;
+}
+
+/************************************************************************************
+        Header Section
+************************************************************************************/
+header {
+    background-color: var(--overtone-bg-color);
+    border-color: var(--overtone-border-color);
+}
+
+/*  Link text color */
+.navbar a {
+    color: #cdcbd4;
+}
+
+/* Link text hover effect */
+.navbar a:hover {
+    color: #5070ab;
+  }
+
+/************************************************************************************
+        Body Section
+************************************************************************************/
+body {
+  background-color: var(--main-bg-color);
+}
+
+.one {
+  color: rgb(44, 224, 203);
+  color: #9b80f5;
+}
+  
+.two {
+  color: #d7f2ff;
+}
+  
+.three {
+  color: #a1acb3;
+}
+  
+.four {
+  color: #98f1db;
+}
+
+
+@media only screen and (max-width: 2327px) {
+  body {
+    background-color: white;
+  }
+}
