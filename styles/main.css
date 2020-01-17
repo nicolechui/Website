@@ -40,7 +40,6 @@ header {
 body {
 }
 
-
 @import url('https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap');
 @import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
 
@@ -68,19 +67,19 @@ body {
 
 
 .one {
-  font-size: 4.5rem;
+  font-size: 40px;
 }
 
 .two {
-  font-size: 9rem;
+  font-size: 100px;
 }
 
 .three {
-  font-size: 6rem;
+  font-size: 100px;
 }
 
 .four {
-  font-size: 4.5rem;
+  font-size: 40px;
 }
 
 
