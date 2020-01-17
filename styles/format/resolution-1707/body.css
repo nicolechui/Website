@@ -1,0 +1,26 @@
+/* 
+    Formatting rules for when the width is 1707 pixels or above
+*/
+
+@media only screen and (max-width: 1707px) {
+    #intro {
+        margin-top: 280px;
+        margin-left: 200px;
+    }
+
+    .one {
+        font-size: 28px;
+    }
+
+    .two {
+        font-size: 80px;
+    }
+
+    .three {
+        font-size: 80px;
+    }
+
+    .four {
+        font-size: 28px;
+    }
+}

@@ -1,0 +1,13 @@
+/* 
+    Formatting rules for when the width is 1707 pixels or above
+*/
+
+@media only screen and (max-width: 1707px) {
+    .navbar {
+        font-size: 13px;
+    }
+
+    .navbar-center {
+        font-size: 22px;
+    }
+}
