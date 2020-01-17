@@ -6,39 +6,29 @@
 .navbar {
   padding-top: var(--vertical-padding);
   padding-bottom: var(--vertical-padding);
-  display: table;
-  width: 100%;
-  font-family: 'PT Sans', sans-serif;
   font-size: 16px;
 }
 
 .row {
-  display: table-row;
   border: 5px;
 }
 
 .navbar-left {
-  display: table-cell;
   width: 25%;
   padding-left: 45px;
 }
 
 .navbar-center {
-  display: table-cell;
   width: 50%;
-  text-align: center;
   font-size: 24px;
 }
 
 .navbar-right {
-  display: table-cell;
   width: 25%;
-  text-align: right;
   padding-right: 45px;
 }
 
 .navbar a {
   padding: var(--vertical-padding) var(--horizontal-padding);
-  text-decoration: none;
 }
 
