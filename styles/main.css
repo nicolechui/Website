@@ -1,74 +1,13 @@
 @charset "UTF-8";
-@import "common.css";
-@import "navbar.css";
-@import "body.css";
+
+/* Common Formatting Rules */
+@import "format/common.css";
+
+/* Format rules at 2560 resolution */
+@import "format/resolution-2560/navbar.css";
+@import "format/resolution-2560/body.css";
 
 @import url('https://fonts.googleapis.com/css?family=PT+Sans:700&display=swap');
-
-:root {
-    --placeholder: #FFFFFF;
-}
-
-/************************************************************************************
-        HTML Section
-************************************************************************************/
-html {
-  scroll-behavior: smooth;
-}
-
-/************************************************************************************
-        Header Section
-************************************************************************************/
-header {
-  font-family: 'PT Sans', sans-serif;
-  border-width: 0px 0px 2px 0px;
-  border-style: groove;
-  position: fixed;
-  left:0;
-  top: 0;
-  width: 100%;
-  transition: top 0.3s;
-}
-
-.navbar {
-  display: table;
-  width: 100%;
-}
-
-.row {
-  display: table-row;
-}
-
-.navbar-left {
-  display: table-cell;
-}
-
-.navbar-center {
-  display: table-cell;
-  text-align: center;
-}
-
-.navbar-right {
-  display: table-cell;
-  text-align: right;
-}
-
-.navbar a {
-  text-decoration: none;
-}
-
-/************************************************************************************
-        Body Section
-************************************************************************************/
-body {
-  font-family: 'PT Sans', sans-serif;
-}
-
-#intro {
-  text-align: left;
-}
-
-
 
 /*
 @import url('https://fonts.googleapis.com/css?family=Khula:800&display=swap');
