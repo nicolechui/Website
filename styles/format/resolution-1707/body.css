@@ -24,3 +24,10 @@
         font-size: 28px;
     }
 }
+
+
+@media only screen and (min-width: 2238px) {
+    footer {
+        font-size: 16px;
+    }
+}

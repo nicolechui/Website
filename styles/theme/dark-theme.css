@@ -49,6 +49,17 @@ body {
   color: #72a8ca;
 }
 
+/************************************************************************************
+        Footer Section
+************************************************************************************/
+footer {
+  background-color: var(--overtone-bg-color);
+  border-color: var(--overtone-border-color);
+}
+
+.footer p {
+  color: #cdcbd4;
+}
 
 /*
 @media only screen and (max-width: 2327px) {

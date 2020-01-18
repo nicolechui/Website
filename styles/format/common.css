@@ -1,58 +1,74 @@
 /************************************************************************************
-        HTML Section
+      HTML Section
 ************************************************************************************/
 html {
     scroll-behavior: smooth;
   }
   
-  /************************************************************************************
-          Header Section
-  ************************************************************************************/
-  header {
-    font-family: 'PT Sans', sans-serif;
-    border-width: 0px 0px 2px 0px;
-    border-style: groove;
-    position: fixed;
-    left:0;
-    top: 0;
-    width: 100%;
-    transition: top 0.3s;
-  }
-  
-  .navbar {
-    display: table;
-    width: 100%;
-  }
-  
-  .row {
-    display: table-row;
-  }
-  
-  .navbar-left {
-    display: table-cell;
-  }
-  
-  .navbar-center {
-    display: table-cell;
-    text-align: center;
-  }
-  
-  .navbar-right {
-    display: table-cell;
-    text-align: right;
-  }
-  
-  .navbar a {
-    text-decoration: none;
-  }
-  
-  /************************************************************************************
-          Body Section
-  ************************************************************************************/
-  body {
-    font-family: 'PT Sans', sans-serif;
-  }
-  
-  #intro {
-    text-align: left;
-  }
+/************************************************************************************
+      Header Section
+************************************************************************************/
+header {
+  font-family: 'PT Sans', sans-serif;
+  border-width: 0px 0px 2px 0px;
+  border-style: groove;
+  position: fixed;
+  left:0;
+  top: 0;
+  width: 100%;
+  transition: top 0.3s;
+}
+
+.navbar {
+  display: table;
+  width: 100%;
+}
+
+.row {
+  display: table-row;
+}
+
+.navbar-left {
+  display: table-cell;
+}
+
+.navbar-center {
+  display: table-cell;
+  text-align: center;
+}
+
+.navbar-right {
+  display: table-cell;
+  text-align: right;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+/************************************************************************************
+      Body Section
+************************************************************************************/
+body {
+  font-family: 'PT Sans', sans-serif;
+}
+
+#intro {
+  text-align: left;
+}
+
+/************************************************************************************
+      Footer Section
+************************************************************************************/
+footer {
+  font-family: 'PT Sans', sans-serif;
+  border-width: 2px 0px 0px 0px;
+  border-style: groove;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  transition: top 0.3s;
+  text-align: center;
+}
+
