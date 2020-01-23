@@ -64,11 +64,9 @@ footer {
   font-family: 'PT Sans', sans-serif;
   border-width: 2px 0px 0px 0px;
   border-style: groove;
-  position: fixed;
+  position: absolute;
   left: 0px;
-  bottom: 0px;
   width: 100%;
   transition: top 0.3s;
   text-align: center;
 }
-
