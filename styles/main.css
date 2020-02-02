@@ -7,6 +7,30 @@
 @import "format/resolution-2560/navbar.css";
 @import "format/resolution-2560/body.css";
 
+/* Format rules at 2225 resolution breakpoint */
+@import "format/resolution-2225/body.css";
+
+/* Format rules at 2065 resolution breakpoint */
+@import "format/resolution-2065/body.css";
+
+/* Format rules at 1910 resolution breakpoint*/
+@import "format/resolution-1910/navbar.css";
+@import "format/resolution-1910/body.css";
+
+/* Format rules at 1750 resolution breakpoint*/
+@import "format/resolution-1750/navbar.css";
+@import "format/resolution-1750/body.css";
+
+/* Format rules at 1590 resolution breakpoint*/
+@import "format/resolution-1590/body.css";
+
+/* Format rules at 1540 resolution breakpoint*/
+@import "format/resolution-1540/navbar.css";
+
+/* Format rules at 1445 resolution breakpoint*/
+@import "format/resolution-1445/navbar.css";
+@import "format/resolution-1445/body.css";
+
 @import url('https://fonts.googleapis.com/css?family=PT+Sans:700&display=swap');
 
 /*
