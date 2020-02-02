@@ -1,17 +1,16 @@
 /************************************************************************************
         Introduction Section
 ************************************************************************************/
-.centered {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-top: -100px;
-    margin-left: -200px;
+.section {
+    height: 120vh;
 }
 
 #intro {
-    margin-left: 700px;
-    margin-top: 500px;
+    margin-left: 600px;
+    padding-top: 550px;
+
+    margin-left: 23%;
+    margin-right: 15%;
 }
 
 .line {
@@ -32,7 +31,6 @@
 
 .emphasis {
     font-size: 60px;
-    color: #a1acb3;
 }
 
 .four {
@@ -43,8 +41,10 @@
 /************************************************************************************
         About Section
 ************************************************************************************/
+/*
 #about {
     margin-top: 800px;
     margin-left: 420px;
 }
+*/
 

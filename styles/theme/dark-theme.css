@@ -30,9 +30,6 @@ body {
 }
 
 .one {
-  color: rgb(44, 224, 203);
-  color: #9b80f5;
-  color: rgb(59, 218, 86);
   color: #a7ddff;
 }
   
@@ -43,9 +40,12 @@ body {
 .three {
   color: #a1acb3;
 }
+
+.emphasis {
+  color: #a1acb3;
+}
   
 .four {
-  color: #98f1db;
   color: #72a8ca;
 }
 
