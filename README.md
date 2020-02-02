@@ -13,3 +13,6 @@
 /* Format rules at 1707 resolution */
 @import "format/resolution-1707/navbar.css";
 @import "format/resolution-1707/body.css";
+
+
+#000111; blue theme color?
