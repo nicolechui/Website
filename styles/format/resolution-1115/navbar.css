@@ -1,0 +1,22 @@
+@media only screen and (max-width: 1115px) {
+    :root {
+        --horizontal-padding: 6px;
+    }
+
+    .navbar {
+        font-size: 9px;
+    }
+
+    .navbar-left {
+        padding-left: 20px;
+    }
+
+    .navbar-center {
+        width: 50%;
+        font-size: 14px;
+    }
+
+    .navbar-right {
+        padding-right: 20px;
+    } 
+}
