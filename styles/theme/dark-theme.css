@@ -124,6 +124,12 @@ footer {
 
 @media only screen and (max-width: 885px) {
   body {
+    background-color: black;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  body {
     background-color: #000111;
   }
 }

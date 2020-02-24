@@ -45,6 +45,12 @@
 @import "format/resolution-965/navbar.css";
 @import "format/resolution-965/body.css";
 
+/* Format rules at 885 resolution breakpoint*/
+@import "format/resolution-885/navbar.css";
+
+/* Format rules at 860 resolution breakpoint*/
+@import "format/resolution-860/body.css";
+
 @import url('https://fonts.googleapis.com/css?family=PT+Sans:700&display=swap');
 
 /*
