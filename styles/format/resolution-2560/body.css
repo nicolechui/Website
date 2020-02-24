@@ -5,10 +5,7 @@
     height: 120vh;
 }
 
-#intro {
-    margin-left: 600px;
-    padding-top: 550px;
-
+body #intro {
     padding-top: 20%;
     margin-left: 23%;
     margin-right: 15%;

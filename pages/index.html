@@ -16,9 +16,9 @@
     <!-------------------------------------------------------------   
             Header Section    
     -------------------------------------------------------------->
-    <header>
+    <header id="header">
         <div class="navbar">
-            <div class="row">
+            <div class="row" id="row-menu">
                 <div class="navbar-left" id="navbar-test">
                     <a id="test">Logo Placeholder</a>
                     <!-- <a id="test" href="1.jpg" download>Test</a> To Download-->
@@ -26,12 +26,17 @@
                 <div class="navbar-center">
                     <a>Matthew Braun &nbsp;|&nbsp; Software Engineer</a>
                 </div>
-                <div class="navbar-right">
+                <div class="navbar-right" id="navbar-menu">
                     <a href="#home">Home</a>
                     <a href="#about">About</a>
                     <a href="#experience">Experience</a>
                     <a href="#contact">Contact</a>
                     <a href="#resume">Resume</a>
+                </div>
+                <div class="dropdown" onclick="toggle_dropdown(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
                 </div>
             </div>
         </div>
@@ -40,7 +45,17 @@
     <!-------------------------------------------------------------   
             Body Section    
     -------------------------------------------------------------->
-    <body>
+    <body id="body">
+        <div class="dropdown" style="float:right;">
+            <button class="dropbtn">Right</button>
+            <div class="dropdown-content">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact</a>
+                <a href="#resume">Resume</a>
+            </div>
+        </div>
         <section class="section">
             <div id="intro">
                 <h3 class="line one">Hello! My name is</h3>
@@ -72,6 +87,31 @@
 
 <script>
    if (window.location.href.includes("/pages/index")) window.location.replace("/");
+</script>
+
+<script>
+    function toggle_dropdown(menu) {
+        menu.classList.toggle("change");
+    }
+    function change_parent(x){
+        if (x.matches) {
+            body = document.getElementById("body")
+            menu = document.getElementById("navbar-menu");
+            body.insertBefore(menu, body.childNodes[0]);
+        }
+    }
+    function change_parent_two(y){
+        if (y.matches) {
+            menu = document.getElementById("navbar-menu");
+            document.getElementById("row-menu").appendChild(menu);
+        }
+    }
+    var x = window.matchMedia("(max-width: 805px)");
+    var y = window.matchMedia("(min-width: 806px)");
+    change_parent(x);
+    change_parent_two(y);
+    x.addListener(change_parent);
+    y.addListener(change_parent_two);
 </script>
 
 
