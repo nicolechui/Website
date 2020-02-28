@@ -26,14 +26,14 @@
                 <div class="navbar-center">
                     <a>Matthew Braun &nbsp;|&nbsp; Software Engineer</a>
                 </div>
-                <div class="navbar-right" id="navbar-menu">
+                <div id="navbar-menu" class="navbar-right">
                     <a href="#home">Home</a>
                     <a href="#about">About</a>
                     <a href="#experience">Experience</a>
                     <a href="#contact">Contact</a>
                     <a href="#resume">Resume</a>
                 </div>
-                <div class="dropdown" onclick="toggle_dropdown(this)">
+                <div id="navbar-dropdown" class="dropdown" onclick="toggle_dropdown(this)">
                     <div class="bar1"></div>
                     <div class="bar2"></div>
                     <div class="bar3"></div>
@@ -46,16 +46,6 @@
             Body Section    
     -------------------------------------------------------------->
     <body id="body">
-        <div class="dropdown" style="float:right;">
-            <button class="dropbtn">Right</button>
-            <div class="dropdown-content">
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#experience">Experience</a>
-                <a href="#contact">Contact</a>
-                <a href="#resume">Resume</a>
-            </div>
-        </div>
         <section class="section">
             <div id="intro">
                 <h3 class="line one">Hello! My name is</h3>
@@ -93,25 +83,29 @@
     function toggle_dropdown(menu) {
         menu.classList.toggle("change");
     }
-    function change_parent(x){
-        if (x.matches) {
-            body = document.getElementById("body")
+
+    function nav_to_dropdown(dropdown_width){
+        if (dropdown_width.matches) {
             menu = document.getElementById("navbar-menu");
-            body.insertBefore(menu, body.childNodes[0]);
+            menu.className = "dropdown-content";
+
+            document.getElementById("navbar-dropdown").appendChild(menu);;
         }
     }
-    function change_parent_two(y){
-        if (y.matches) {
+    function dropdown_to_nav(navbar_width){
+        if (navbar_width.matches) {
             menu = document.getElementById("navbar-menu");
+            menu.className = "navbar-right";
+
             document.getElementById("row-menu").appendChild(menu);
         }
     }
-    var x = window.matchMedia("(max-width: 805px)");
-    var y = window.matchMedia("(min-width: 806px)");
-    change_parent(x);
-    change_parent_two(y);
-    x.addListener(change_parent);
-    y.addListener(change_parent_two);
+    var dropdown_width = window.matchMedia("(max-width: 805px)");
+    var navbar_width = window.matchMedia("(min-width: 806px)");
+    nav_to_dropdown(dropdown_width);
+    dropdown_to_nav(navbar_width);
+    dropdown_width.addListener(nav_to_dropdown);
+    navbar_width.addListener(dropdown_to_nav);
 </script>
 
 

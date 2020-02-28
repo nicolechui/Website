@@ -138,28 +138,7 @@ footer {
   body {
     background-color: black;
   }
-  
-  /*
-  body #intro {
-    margin-top: -69px;
-  }
-  */
-}
 
-.dropbtn {
-  background-color: var(--overtone-bg-color);
-  color: #cdcbd4;
-  font-size: 12px;
-  border: none;
-  cursor: pointer;
-}
-
-/*
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-*/
 
 .dropdown-content {
   display: none;
@@ -178,8 +157,11 @@ footer {
   display: block;
 }
 
+.change .dropdown-content {
+  display: block;
+}
+
 .dropdown-content a:hover {color: #5070ab;}
-.dropdown:hover .dropdown-content {display: block;}
 
 
 .dropdown {
