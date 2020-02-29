@@ -61,19 +61,20 @@ hr {
         About Section
 ************************************************************************************/
 #about {
-    padding-top: 100px;
-    margin-top: 75%;
+    padding-top: 75px;
+    margin-top: 1250px;
 }
 
 #experience {
-    padding-top: 100px;
-    margin-top: 25%;
+    padding-top: 75px;
+    margin-top: 400px;
 }
 
 #contact {
-    padding-top: 100px;
-    margin-top: 250%;
+    padding-top: 75px;
+    margin-top: 400px;
 }
+
 
 #about-img {
     float: right;
