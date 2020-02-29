@@ -1,4 +1,8 @@
 @media only screen and (max-width: 1200px) {
+    #about {
+        margin-top: 650px;
+    }
+
     #about-img {
         width: 325px;
         padding-right: 10%;

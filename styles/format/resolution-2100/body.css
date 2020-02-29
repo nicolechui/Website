@@ -6,4 +6,8 @@
     .about-text {
         font-size: 26px;
     }
+
+    #about {
+        margin-top: 1100px;
+    }
 }
