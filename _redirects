@@ -1,7 +1,2 @@
-# Redirect to main landing page
-/                   /pages/index.html           200
-/index              /pages/index.html           200
-/index.html         /pages/index.html           200
-
 # Redirect with a 404
 /*                  /pages/404.html             404
