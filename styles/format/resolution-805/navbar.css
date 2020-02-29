@@ -1,0 +1,16 @@
+@media only screen and (max-width: 805px) {
+    .dropdown {
+      display: table-cell;
+      float: right;
+      padding-right: 20px;
+    }
+
+    .navbar {
+        font-size: 14px;
+    }
+
+    .navbar-center {
+        font-size: 22px;
+    }
+
+  }

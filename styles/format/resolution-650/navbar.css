@@ -1,0 +1,14 @@
+@media only screen and (max-width: 650px) {
+    .navbar {
+        font-size: 12px;
+    }
+    
+    .navbar-center {
+        font-size: 18px;
+    }
+
+    .dropdown-content {
+        min-width: 100px;
+    }
+
+  }
