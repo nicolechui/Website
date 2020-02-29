@@ -9,6 +9,7 @@ html {
       Header Section
 ************************************************************************************/
 header {
+  z-index: 1;
   font-family: 'PT Sans', sans-serif;
   border-width: 0px 0px 2px 0px;
   border-style: groove;
@@ -51,6 +52,7 @@ header {
       Body Section
 ************************************************************************************/
 body {
+  z-index: 0;
   font-family: 'PT Sans', sans-serif;
   text-align: center;
 }
@@ -63,6 +65,7 @@ body {
       Footer Section
 ************************************************************************************/
 footer {
+  z-index: 1;
   font-family: 'PT Sans', sans-serif;
   border-width: 2px 0px 0px 0px;
   border-style: groove;
