@@ -37,6 +37,22 @@ body #intro {
 }
 
 /************************************************************************************
+        Test Section
+************************************************************************************/
+body #SECOND_INTRO {
+    text-align: left;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 47.8%;
+    -moz-transform: translateX(-47%) translateY(-50%);
+    -webkit-transform: translateX(-47%) translateY(-50%);
+    transform: translateX(-47%) translateY(-50%);
+}
+
+/************************************************************************************
         About Section
 ************************************************************************************/
 #about {
