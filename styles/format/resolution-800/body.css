@@ -1,0 +1,22 @@
+@media only screen and (max-width: 800px) {
+    .one {
+        font-size: 24px;
+    }
+
+    .two {
+        font-size: 45px;
+    }
+
+    .three {
+        font-size: 45px;
+    }
+    
+    .emphasis {
+        font-size: 35px;
+    }
+
+    .four {
+        margin-top: 10px;
+        font-size: 24px;
+    }
+}
