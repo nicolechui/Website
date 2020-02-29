@@ -27,7 +27,9 @@
 @import "format/resolution-870/body.css";
 @import "format/resolution-800/body.css";
 @import "format/resolution-725/body.css";
+@import "format/resolution-500/body.css";
 @import "format/resolution-420/body.css";
+@import "format/resolution-350/body.css";
 
 /* Format rules for navbar breakpoints */
 @import "format/resolution-1910/navbar.css";
