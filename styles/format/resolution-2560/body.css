@@ -60,21 +60,15 @@ hr {
 /************************************************************************************
         About Section
 ************************************************************************************/
+.section {
+    padding-top: 75px;
+    margin-top: 400px;
+}
+
 #about {
     padding-top: 75px;
     margin-top: 1250px;
 }
-
-#experience {
-    padding-top: 75px;
-    margin-top: 400px;
-}
-
-#contact {
-    padding-top: 75px;
-    margin-top: 400px;
-}
-
 
 #about-img {
     float: right;
