@@ -1,57 +1,27 @@
 @charset "UTF-8";
 
 /* Common Formatting Rules */
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:700&display=swap');
 @import "format/common.css";
 
-/* Format rules at 2560 resolution */
+/* Base Format Rules */
 @import "format/resolution-2560/navbar.css";
 @import "format/resolution-2560/body.css";
 
-/* Format rules at 2225 resolution breakpoint */
-@import "format/resolution-2225/body.css";
+/* Format rules for body breakpoints */
+@import "format/resolution-1850/body.css";
+@import "format/resolution-1735/body.css";
 
-/* Format rules at 2065 resolution breakpoint */
-@import "format/resolution-2065/body.css";
-
-/* Format rules at 1910 resolution breakpoint*/
+/* Format rules for navbar breakpoints */
 @import "format/resolution-1910/navbar.css";
-@import "format/resolution-1910/body.css";
-
-/* Format rules at 1750 resolution breakpoint*/
 @import "format/resolution-1750/navbar.css";
-@import "format/resolution-1750/body.css";
-
-/* Format rules at 1590 resolution breakpoint*/
-@import "format/resolution-1590/body.css";
-
-/* Format rules at 1540 resolution breakpoint*/
 @import "format/resolution-1540/navbar.css";
-
-/* Format rules at 1445 resolution breakpoint*/
 @import "format/resolution-1445/navbar.css";
-@import "format/resolution-1445/body.css";
-
-/* Format rules at 1320 resolution breakpoint*/
 @import "format/resolution-1320/navbar.css";
-
-/* Format rules at 1275 resolution breakpoint*/
-@import "format/resolution-1275/body.css";
-
-/* Format rules at 1115 resolution breakpoint*/
 @import "format/resolution-1115/navbar.css";
-@import "format/resolution-1115/body.css";
-
-/* Format rules at 965 resolution breakpoint*/
 @import "format/resolution-965/navbar.css";
-@import "format/resolution-965/body.css";
-
-/* Format rules at 885 resolution breakpoint*/
 @import "format/resolution-885/navbar.css";
 
-/* Format rules at 860 resolution breakpoint*/
-@import "format/resolution-860/body.css";
-
-@import url('https://fonts.googleapis.com/css?family=PT+Sans:700&display=swap');
 
 
 /*
