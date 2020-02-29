@@ -20,6 +20,7 @@
 @import "format/resolution-895/body.css";
 @import "format/resolution-800/body.css";
 @import "format/resolution-725/body.css";
+@import "format/resolution-420/body.css";
 
 /* Format rules for navbar breakpoints */
 @import "format/resolution-1910/navbar.css";
