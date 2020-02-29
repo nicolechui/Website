@@ -5,10 +5,18 @@
     height: 120vh;
 }
 
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50.8%;
+    margin-right: -25%;
+    -moz-transform: translateX(-47%) translateY(-50%);
+    -webkit-transform: translateX(-47%) translateY(-50%);
+    transform: translateX(-47%) translateY(-50%);
+}
+
 body #intro {
-    padding-top: 20%;
-    margin-left: 23%;
-    margin-right: 15%;
+    text-align: left;
 }
 
 .line {
@@ -34,22 +42,6 @@ body #intro {
 .four {
     font-size: 30px;
     margin-top: -15px;
-}
-
-/************************************************************************************
-        Test Section
-************************************************************************************/
-body #SECOND_INTRO {
-    text-align: left;
-}
-
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 47.8%;
-    -moz-transform: translateX(-47%) translateY(-50%);
-    -webkit-transform: translateX(-47%) translateY(-50%);
-    transform: translateX(-47%) translateY(-50%);
 }
 
 /************************************************************************************
