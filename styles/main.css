@@ -11,6 +11,13 @@
 /* Format rules for body breakpoints */
 @import "format/resolution-1850/body.css";
 @import "format/resolution-1735/body.css";
+@import "format/resolution-1625/body.css";
+@import "format/resolution-1515/body.css";
+@import "format/resolution-1400/body.css";
+@import "format/resolution-1290/body.css";
+@import "format/resolution-1145/body.css";
+@import "format/resolution-1020/body.css";
+@import "format/resolution-895/body.css";
 
 /* Format rules for navbar breakpoints */
 @import "format/resolution-1910/navbar.css";
