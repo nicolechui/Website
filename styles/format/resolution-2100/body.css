@@ -1,0 +1,9 @@
+@media only screen and (max-width: 2100px) {
+    #about-img {
+        width: 600px;
+    }
+
+    .about-text {
+        font-size: 26px;
+    }
+}

@@ -18,4 +18,12 @@
     .four {
         font-size: 20px;
     }
+
+    #about-img {
+        width: 350px;
+    }
+
+    .about-text {
+        font-size: 16px;
+    }
 }
