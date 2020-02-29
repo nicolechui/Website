@@ -9,15 +9,22 @@
 @import "format/resolution-2560/body.css";
 
 /* Format rules for body breakpoints */
+@import "format/resolution-2250/body.css";
+@import "format/resolution-2100/body.css";
+@import "format/resolution-1910/body.css";
 @import "format/resolution-1850/body.css";
 @import "format/resolution-1735/body.css";
 @import "format/resolution-1625/body.css";
 @import "format/resolution-1515/body.css";
 @import "format/resolution-1400/body.css";
 @import "format/resolution-1290/body.css";
+@import "format/resolution-1200/body.css";
 @import "format/resolution-1145/body.css";
+@import "format/resolution-1085/body.css";
 @import "format/resolution-1020/body.css";
+@import "format/resolution-950/body.css";
 @import "format/resolution-895/body.css";
+@import "format/resolution-870/body.css";
 @import "format/resolution-800/body.css";
 @import "format/resolution-725/body.css";
 @import "format/resolution-420/body.css";
