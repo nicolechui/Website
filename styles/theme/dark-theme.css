@@ -72,7 +72,7 @@ hr {
 
 .active-button {
   border: 2px solid rgba(65, 87, 100, 0.5);
-  box-shadow:5px 12px 20px 0px rgba(65,87,100,0.39);
+  box-shadow: 5px 12px 20px 0px rgba(65,87,100,0.39);
 }
 
 .subtext {
