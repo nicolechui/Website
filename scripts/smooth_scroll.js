@@ -24,8 +24,8 @@ $(document).ready(function(){
         var hash = this.hash;
 
         var scroll_time;
-        if (Math.abs(window.pageYOffset - $(hash).offset().top) < 800) {
-            scroll_time = 100;
+        if (Math.abs(window.pageYOffset - $(hash).offset().top) < 600) {
+            scroll_time = 400;
         }
         else {
             scroll_time = 800
