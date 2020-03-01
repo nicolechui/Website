@@ -23,16 +23,24 @@ $(document).ready(function(){
         // Store hash
         var hash = this.hash;
 
+        var scroll_time;
+        if (Math.abs(window.pageYOffset - $(hash).offset().top) < 800) {
+            scroll_time = 100;
+        }
+        else {
+            scroll_time = 800
+        }
+
         // 800 milliseconds to scroll to location.
         if (hash == "#home") {
             $('html, body').animate({
                 scrollTop: 0
-            }, 800, stop_scrolling);
+            }, scroll_time, stop_scrolling);
         }
         else {
             $('html, body').animate({
                 scrollTop: $(hash).offset().top
-            }, 800, stop_scrolling);
+            }, scroll_time, stop_scrolling);
         }
             window.location.hash = hash;
         }
