@@ -64,12 +64,12 @@ hr {
         About Section
 ************************************************************************************/
 .section {
-    padding-top: 75px;
-    margin-top: 400px;
+    padding-top: 1vh;
+    margin-top: 30vh;
 }
 
 #about {
-    padding-top: 75px;
+    padding-top: 1vh;
 }
 
 #about-img {
