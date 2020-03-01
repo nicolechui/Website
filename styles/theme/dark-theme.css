@@ -80,11 +80,23 @@ hr {
 }
 
 .experience-txt h3 {
-  color: #d7f2ff
+  color: #d7f2ff;
 }
 
 .experience-txt h4 {
   color: #cdcbd4;
+}
+
+.experience-txt .color_one {
+  color: #72a8ca;
+}
+
+.experience-txt .color_two {
+  color: #d7f2ff
+}
+
+.experience-txt p {
+  color: #a7ddff;
 }
 
 /************************************************************************************

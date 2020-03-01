@@ -19,4 +19,22 @@
         margin-top: 10px;
         font-size: 26px;
     }
+
+    #experience-btn-group {
+        width: 200px;
+    }
+
+    .experience-btn {
+        width: 200px;
+        height: 200px;
+        font-size: 14px;
+    }
+
+    .experience-txt {
+        font-size: 14px;
+    }
+
+    .experience-txt h4 {
+        margin-top: -15px;
+    }
 }

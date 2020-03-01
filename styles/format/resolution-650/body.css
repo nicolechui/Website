@@ -1,0 +1,14 @@
+@media only screen and (max-width: 650px) {    
+    .experience-btn {
+        width: 150px;
+        height: 150px;
+    }
+
+    .experience-txt {
+        font-size: 14px;
+    }
+    
+    .experience-txt h4 {
+        margin-top: -15px;
+    }
+}

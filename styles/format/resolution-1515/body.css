@@ -30,4 +30,26 @@
     .about-text {
         font-size: 18px;
     }
+
+    #experience-btn-group {
+        width: 250px;
+    }
+
+    .experience-btn {
+        width: 250px;
+        height: 250px;
+        font-size: 20px;
+    }
+
+    .subtext {
+        font-size: 12px;
+    }
+
+    .experience-txt {
+        font-size: 22px;
+    }
+
+    .experience-txt h4 {
+        margin-top: -25px;
+    }
 }

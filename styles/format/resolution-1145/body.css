@@ -23,4 +23,26 @@
     #about {
         margin-top: 600px;
     }
+
+    #experience-btn-group {
+        width: 225px;
+    }
+
+    .experience-btn {
+        width: 225px;
+        height: 225px;
+        font-size: 18px;
+    }
+
+    .subtext {
+        font-size: 10px;
+    }
+
+    .experience-txt {
+        font-size: 18px;
+    }
+
+    .experience-txt h4 {
+        margin-top: -20px;
+    }
 }

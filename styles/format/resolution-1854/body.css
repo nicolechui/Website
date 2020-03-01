@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1850px) {
+@media only screen and (max-width: 1854px) {
     .one {
         font-size: 28px;
     }
@@ -21,5 +21,13 @@
 
     #about {
         margin-top: 950px;
+    }
+
+    .experience-txt {
+        font-size: 26px;
+    }
+
+    .experience-txt h4 {
+        margin-top: -30px;
     }
 }

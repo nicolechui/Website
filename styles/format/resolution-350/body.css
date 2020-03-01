@@ -17,4 +17,18 @@
     .about-text {
         font-size: 12px;
     }
+
+    .experience-btn {
+        width: 70px;
+        height: 70px;
+        font-size: 14px;
+    }
+
+    .subtext {
+        font-size: 5px;
+    }
+
+    .experience-txt {
+        font-size: 12px;
+    }
 }

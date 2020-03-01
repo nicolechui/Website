@@ -25,4 +25,23 @@
         padding-left: 5%;
         width: 90%;
     }
+
+    .experience-btn {
+        width: 125px;
+        height: 125px;
+        font-size: 18px;
+    }
+
+    .subtext {
+        font-size: 10px;
+    }
+
+    #experience-txt-group {
+        margin-right: 0%;
+    }
+
+    .experience-txt ul {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
 }

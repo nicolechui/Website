@@ -100,7 +100,7 @@ hr {
 
 .experience-btn {
     width: 300px;
-    height: 200px;
+    height: 300px;
     font-size: 24px;
 }
 
@@ -109,18 +109,14 @@ hr {
 }
 
 .experience-txt {
-    display: none;
-    text-align: left;
     font-size: 30px;
+    width: 85%;
 }
 
 .experience-txt h4 {
     margin-top: -40px;
 }
-  
-.active-text {
-    display: block;
-}
+
 
 /************************************************************************************
         Contact Section
