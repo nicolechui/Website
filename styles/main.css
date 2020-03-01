@@ -9,6 +9,8 @@
 @import "format/resolution-2560/body.css";
 
 /* Format rules for body breakpoints */
+@import "format/resolution-2450/body.css";
+@import "format/resolution-2350/body.css";
 @import "format/resolution-2250/body.css";
 @import "format/resolution-2000/body.css";
 @import "format/resolution-2100/body.css";
