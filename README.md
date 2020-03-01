@@ -1,18 +1,9 @@
 # Website
+Hello! this is the source code to my personal website at https://matthewbraun.netlify.com/
 
 
-
-/* Format rules at 2327 resolution */
-@import "format/resolution-2327/navbar.css";
-@import "format/resolution-2327/body.css";
-
-/* Format rules at 2048 resolution */
-@import "format/resolution-2048/navbar.css";
-@import "format/resolution-2048/body.css";
-
-/* Format rules at 1707 resolution */
-@import "format/resolution-1707/navbar.css";
-@import "format/resolution-1707/body.css";
+The entirety of this website is written in HTML/Javascript/CSS/JQuery.
 
 
-#000111; blue theme color?
+I hope you enjoy!
+
