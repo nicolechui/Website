@@ -75,8 +75,20 @@ hr {
   box-shadow:5px 12px 20px 0px rgba(65,87,100,0.39);
 }
 
+.subtext {
+  color: #a7ddff;
+}
+
+.experience-txt h3 {
+  color: #d7f2ff
+}
+
+.experience-txt h4 {
+  color: #cdcbd4;
+}
+
 /************************************************************************************
-        Footer Section     box-shadow: 0px 12px 16px 0px rgba(0,0,0,0.7), 5px 12px 20px 0px rgba(65,87,100,0.39);
+        Footer Section   
 ************************************************************************************/
 footer {
   background-color: #0c0c0e;

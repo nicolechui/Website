@@ -89,9 +89,37 @@ hr {
 /************************************************************************************
         Experience Section
 ************************************************************************************/
+.button-group {
+    padding-left: 15%;
+    padding-right: 5%;
+}
+
+#experience-btn-group {
+    width: 300px;
+}
+
 .experience-btn {
     width: 300px;
     height: 200px;
+    font-size: 24px;
+}
+
+.subtext {
+    font-size: 16px;
+}
+
+.experience-txt {
+    display: none;
+    text-align: left;
+    font-size: 30px;
+}
+
+.experience-txt h4 {
+    margin-top: -40px;
+}
+  
+.active-text {
+    display: block;
 }
 
 /************************************************************************************
