@@ -126,3 +126,11 @@ hr {
     height: 150px;
     padding-bottom: 25px;
 }
+
+#contact .contact_text_one {
+    font-size: 60px;
+}
+
+#contact .contact_text_two {
+    font-size: 40px;
+}

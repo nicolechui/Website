@@ -31,4 +31,17 @@
     .experience-txt {
         font-size: 12px;
     }
+
+    .social_icons a img{
+        width: 35px;
+        height: 35px;
+    }
+    
+    #contact .contact_text_one {
+        font-size: 12px;
+    }
+    
+    #contact .contact_text_two {
+        font-size: 10px;
+    }
 }

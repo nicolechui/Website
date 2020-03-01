@@ -10,4 +10,17 @@
     .about-text {
         font-size: 12px;
     }
+
+    .social_icons a img{
+        width: 75px;
+        height: 75px;
+    }
+    
+    #contact .contact_text_one {
+        font-size: 35px;
+    }
+    
+    #contact .contact_text_two {
+        font-size: 25px;
+    }
 }

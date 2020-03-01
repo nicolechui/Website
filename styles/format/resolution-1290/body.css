@@ -26,4 +26,17 @@
     #about {
         margin-top: 700px;
     }
+
+    .social_icons a img{
+        width: 125px;
+        height: 125px;
+    }
+    
+    #contact .contact_text_one {
+        font-size: 50px;
+    }
+    
+    #contact .contact_text_two {
+        font-size: 35px;
+    }
 }

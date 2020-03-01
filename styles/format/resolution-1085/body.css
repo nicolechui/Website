@@ -6,4 +6,17 @@
     .about-text {
         font-size: 14px;
     }
+
+    .social_icons a img{
+        width: 100px;
+        height: 100px;
+    }
+    
+    #contact .contact_text_one {
+        font-size: 45px;
+    }
+    
+    #contact .contact_text_two {
+        font-size: 30px;
+    }
 }
