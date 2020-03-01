@@ -1,6 +1,6 @@
 @media only screen and (max-width: 885px) {
-    :root {
-        --horizontal-padding: 2px;
+    .navbar a {
+        padding: 20px 2px;
     }
 
     .navbar {
