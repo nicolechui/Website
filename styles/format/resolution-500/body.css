@@ -44,4 +44,8 @@
         padding-left: 0%;
         padding-right: 0%;
     }
+
+    footer {
+        font-size: 10px;
+    }
 }
