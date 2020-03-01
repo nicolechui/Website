@@ -100,6 +100,11 @@
                 <h2 class="title">Experience</h2>
                 <hr></hr>
             </div>
+            <div id="experience-btn-group" class="button-group">
+                <button class="experience-btn" onclick="toggle_active(this)">Cisco</button>
+                <button class="experience-btn" onclick="toggle_active(this)">Cisco</button>
+                <button class="experience-btn" onclick="toggle_active(this)">Disney</button>
+            </div>
         </section>
 
         <section id="contact" class="section">
@@ -118,36 +123,8 @@
             <p>&#169; Matthew Braun &nbsp;|&nbsp; Designed and Built by Matthew Braun</p>
         </div>
     </footer>
+    <script src="./scripts/buttons.js"></script>
 </html>
-
-<script>
-    function toggle_dropdown(menu) {
-        menu.classList.toggle("change");
-    }
-
-    function nav_to_dropdown(dropdown_width){
-        if (dropdown_width.matches) {
-            menu = document.getElementById("navbar-menu");
-            menu.className = "dropdown-content";
-
-            document.getElementById("navbar-dropdown").appendChild(menu);;
-        }
-    }
-    function dropdown_to_nav(navbar_width){
-        if (navbar_width.matches) {
-            menu = document.getElementById("navbar-menu");
-            menu.className = "navbar-right";
-
-            document.getElementById("row-menu").appendChild(menu);
-        }
-    }
-    var dropdown_width = window.matchMedia("(max-width: 805px)");
-    var navbar_width = window.matchMedia("(min-width: 806px)");
-    nav_to_dropdown(dropdown_width);
-    dropdown_to_nav(navbar_width);
-    dropdown_width.addListener(nav_to_dropdown);
-    navbar_width.addListener(dropdown_to_nav);
-</script>
 
 
 <!--Functionality to change theme <script>
